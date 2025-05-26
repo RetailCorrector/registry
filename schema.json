@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["$schema", "modules"],
+  "properties": {
+    "$schema": {
+      "const": "https://raw.githubusercontent.com/RetailCorrector/registry/refs/heads/main/schema.json"
+    },
+    "modules":{
+      "type": "array",
+      "items": {
+    	"type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+          	"type": "string"
+          },
+          "version": {
+          	"type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+          },
+          "type": {
+          	"enum": ["Fiscal", "Source"]
+          },
+          "author": {
+          	"type": "string"
+          },
+          "description": {
+          	"type": "string"
+          },
+          "file": {
+          	"type": "string",
+            "pattern": "^http(s?):.*\\.dll$"
+          },
+          "hash": {
+          	"type": "string"
+          },
+        },
+        "required":["id", "name", "version", "type", "author", "description", "file", "hash"]
+      }
+    }
+  }
+}
