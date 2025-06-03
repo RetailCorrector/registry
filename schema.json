@@ -34,12 +34,9 @@
           "file": {
           	"type": "string",
             "pattern": "^http(s?):.*\\.dll$"
-          },
-          "hash": {
-          	"type": "string"
-          },
+          }
         },
-        "required":["id", "name", "version", "type", "author", "description", "file", "hash"]
+        "required":["id", "name", "version", "type", "author", "description", "file"]
       }
     }
   }
