@@ -1,12 +1,12 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "required": ["$schema", "plugins"],
+  "required": ["$schema", "assemblies"],
   "properties": {
     "$schema": {
       "const": "https://raw.githubusercontent.com/RetailCorrector/registry/refs/heads/main/schema.json"
     },
-    "plugins":{
+    "assemblies":{
       "type": "array",
       "items": {
     	"type": "object",
