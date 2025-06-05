@@ -1,20 +1,16 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "required": ["$schema", "modules"],
+  "required": ["$schema", "plugins"],
   "properties": {
     "$schema": {
       "const": "https://raw.githubusercontent.com/RetailCorrector/registry/refs/heads/main/schema.json"
     },
-    "modules":{
+    "plugins":{
       "type": "array",
       "items": {
     	"type": "object",
         "properties": {
-          "id": {
-            "type": "string",
-            "format": "uuid"
-          },
           "name": {
           	"type": "string"
           },
@@ -23,7 +19,7 @@
             "pattern": "^\\d+\\.\\d+\\.\\d+$"
           },
           "type": {
-          	"enum": ["Fiscal", "Source"]
+          	"enum": ["Fiscal", "Source", "Pack"]
           },
           "author": {
           	"type": "string"
@@ -36,7 +32,7 @@
             "pattern": "^http(s?):.*\\.dll$"
           }
         },
-        "required":["id", "name", "version", "type", "author", "description", "file"]
+        "required":["name", "version", "type", "author", "description", "file"]
       }
     }
   }
