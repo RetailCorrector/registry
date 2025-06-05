@@ -11,6 +11,10 @@
       "items": {
     	"type": "object",
         "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
           "name": {
           	"type": "string"
           },
@@ -32,7 +36,7 @@
             "pattern": "^http(s?):.*\\.dll$"
           }
         },
-        "required":["name", "version", "type", "author", "description", "file"]
+        "required":["id", "name", "version", "type", "author", "description", "file"]
       }
     }
   }
