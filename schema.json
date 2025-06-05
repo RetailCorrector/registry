@@ -22,9 +22,6 @@
           	"type": "string",
             "pattern": "^\\d+\\.\\d+\\.\\d+$"
           },
-          "type": {
-          	"enum": ["Fiscal", "Source", "Pack"]
-          },
           "author": {
           	"type": "string"
           },
@@ -36,7 +33,7 @@
             "pattern": "^http(s?):.*\\.dll$"
           }
         },
-        "required":["id", "name", "version", "type", "author", "description", "file"]
+        "required":["id", "name", "version", "author", "description", "file"]
       }
     }
   }
