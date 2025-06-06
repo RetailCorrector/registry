@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RetailCorrector/registry/refs/heads/main/schema.json",
+  "assemblies": [
+    {
+      "id": "9f838119-7899-4c77-92a1-4d4060d6a3c8",
+      "name": "Saby",
+      "version": "1.0.0",
+      "author": "ornaras",
+      "file": "https://github.com/OrnaMods/RetailCorrector.Saby/releases/download/v1.0.0/Saby.dll",
+      "description": "Парсер чеков с ОФД ХК \"Тензор\" (Saby)"
+    }
+  ]
+}
