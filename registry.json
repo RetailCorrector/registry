@@ -16,6 +16,14 @@
       "author": "ornaras",
       "file": "https://github.com/OrnaMods/RetailCorrector.OfdRu/releases/download/v1.0.0/OfdRu.dll",
       "description": "Парсер чеков с ОФД ООО \"Петер-Сервис\" (OfdRu)"
+    },
+    {
+      "id": "43d4007e-1728-4542-93ad-07a609b048a1",
+      "name": "Fptr",
+      "version": "1.0.0",
+      "author": "ornaras",
+      "file": "https://github.com/OrnaMods/RetailCorrector.Fptr/releases/download/v1.0.0/Fptr.dll",
+      "description": "Драйвер Atol10 (Fptr)"
     }
   ]
 }
