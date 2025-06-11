@@ -24,6 +24,14 @@
       "author": "ornaras",
       "file": "https://github.com/OrnaMods/RetailCorrector.Fptr/releases/download/v1.0.0/Fptr.dll",
       "description": "Драйвер Atol10 (Fptr)"
+    },
+    {
+      "id": "013dc59c-657b-4364-8cd9-68ba9cd7b3be",
+      "name": "FirstOfd",
+      "version": "1.0.0",
+      "author": "ornaras",
+      "file": "https://github.com/OrnaMods/RetailCorrector.FirstOfd/releases/download/v1.0.0/FirstOfd.dll",
+      "description": "Парсер чеков с ОФД АО \"ЭСК\" (Первый ОФД)"
     }
   ]
 }
