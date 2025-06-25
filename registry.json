@@ -12,9 +12,9 @@
     {
       "id": "5f45a5b3-b129-4346-bb55-219fbd2b4156",
       "name": "OfdRu",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": "ornaras",
-      "file": "https://github.com/OrnaMods/RetailCorrector.OfdRu/releases/download/v1.2.0/OfdRu.dll",
+      "file": "https://github.com/OrnaMods/RetailCorrector.OfdRu/releases/download/v1.2.1/OfdRu.dll",
       "description": "Парсер чеков с ОФД ООО \"Петер-Сервис\" (OfdRu)"
     },
     {
